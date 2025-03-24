@@ -108,7 +108,7 @@ int main(int argc, char* argv[]) {
                 cout << "[DEBUG] Logged encryption result: " << response << endl;
             }
         } 
-        else if (command == "decrypt") {
+        else if (command ==      "decrypt") {
             cout << "Enter encrypted text: " << flush;
             if (!getline(cin, input)) break;
 
